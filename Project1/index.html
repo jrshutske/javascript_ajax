@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Project1</title>
+    <script src="javascript/projectOne.js" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <span>STORIES:</span>
+    <br>
+    <label>
+      <input type="radio" name="house" value="small" unchecked>
+      <img class="house" src="images/oneStory.png">
+    </label>
+    <label>
+      <input type="radio" name="house"  value="big" unchecked>
+      <img class="house" src="images/twoStory.png">
+    </label>
+    <br><br><br>
+    <span>COLOR:</span>
+    <br>
+    <label>
+      <input type="radio" name="color" value="blue" unchecked>
+      <span style="color:blue">&#9608;</span>
+    </label>
+    <label>
+      <input type="radio" name="color" value="red" unchecked>
+      <span style="color:red">&#9608;</span>
+    </label>
+    <label>
+      <input type="radio" name="color" value="green" unchecked>
+      <span style="color:green">&#9608;</span>
+    </label>
+    <label>
+      <input type="radio" name="color" value="yellow" unchecked>
+      <span style="color:yellow">&#9608;</span>
+    </label>
+    <label>
+      <input type="radio" name="color" value="orange" unchecked>
+      <span style="color:orange">&#9608;</span>
+    </label>
+    <label>
+      <input type="radio" name="color" value="teal" unchecked>
+      <span style="color:teal">&#9608;</span>
+    </label>
+    <label>
+      <input type="radio" name="color" value="white" unchecked>
+      <span style="color:white">&#9608;</span>
+    </label>
+    <br><br><br>
+    <span>MATERIAL:</span>
+    <br>
+    <label>
+      <input type="radio" name="material" value="brick" unchecked>
+      <img src="images/brick.png" class="material">
+    </label>
+    <label>
+      <input type="radio" name="material"  value="stone" unchecked>
+      <img src="images/stone.png" class="material">
+    </label>
+    <label>
+      <input type="radio" name="material" value="stucco" unchecked>
+      <img src="images/cement.png" class="material">
+    </label>
+    <label>
+      <input type="radio" name="material"  value="vinyl" unchecked>
+      <img src="images/vinyl.png" class="material">
+    </label>
+    <label>
+      <input type="radio" name="material" value="wood" unchecked>
+      <img src="images/wood.png" class="material">
+    </label>
+    <br><br><br>
+    <span>NUMBER OF GARAGES:</span>
+    <br>
+    <label>
+      <input type="radio" name="garage" value="1" unchecked>
+    <span>1</span>
+    </label>
+    <label>
+      <input type="radio" name="garage"  value="2" unchecked>
+      <span>2</span>
+    </label>
+    <label>
+      <input type="radio" name="garage" value="3" unchecked>
+      <span>3</span>
+    </label>
+    <br><br><br>
+    <span>SQUARE FEET:</span>
+    <br>
+    <div id="squarefeet">
+    <input type="number" name="squarefeet" value="" placeholder="sq. feet"></input>
+    </div>
+    <br>
+    <button id="checkprice" type="button" name="button" onclick="finish()">Check Price</button>
+    <p id="estimate"></p>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "project2",
+  "version": "1.0.0",
+  "description": "use the weather api to grab basic info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jrshutske",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "node": "^11.11.0"
+  }
+}
